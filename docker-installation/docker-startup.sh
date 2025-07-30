@@ -39,9 +39,3 @@ systemctl start docker
 
 # Verify Docker installation
 docker --version
-
-# Add jay_shenkar to docker group
-usermod -aG docker jay_shenkar
-
-echo "Docker installation complete. User 'jay_shenkar' added to docker group."
-echo "Please log out and log back in for group changes to apply if needed."
